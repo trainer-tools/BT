@@ -1,0 +1,157 @@
+/*
+ Theme Name:   Woodmart Child
+ Description:  Woodmart Child Theme
+ Author:       XTemos
+ Author URI:   http://xtemos.com
+ Template:     woodmart
+ Version:      1.0.0
+ Text Domain:  woodmart
+*/
+
+/* LOGO */
+.woodmart-logo img {
+	-webkit-appearance: none!important;
+	-webkit-perspective: 0 !important;
+	perspective: none !important;
+	transform: none !important;
+	backface-visibility: initial !important;
+	-webkit-backface-visibility: initial !important;
+}
+
+/* INNER PAGES HEADER TITLE */
+header.entry-header h1.entry-title{
+	font-weight: 500!important;
+}
+
+.team-member-name{
+	margin-bottom: 15px!important;
+}
+.team-member-name .liner-continer{
+	margin-bottom: 5px!important;
+}
+.team-member-name .title-after_title{
+	font-style: italic;
+}
+.service-list-1 ul li:not(:last-child) {
+    margin-bottom: 5px;
+}
+
+/* TESTIMONIALS */
+.testimonial-self .testimonial-inner{
+	position: relative;
+}
+.testimonial-self .testimonial-rating{
+	position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transform: translate(-50%, 0px);
+}
+.testimonial-self .star-rating{
+	position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 18px;
+    vertical-align: middle;
+    white-space: nowrap;
+    letter-spacing: 3px;
+    font-weight: 300;
+    font-size: 14px;
+    font-family: woodmart-font;
+    line-height: 18px;
+}
+.testimonial-self .star-rating span:before {
+    content: "\f505" "\f505" "\f505" "\f505" "\f505";
+    position: absolute;
+    top: 0;
+    left: 0;
+    color: #EABE12;
+    font-size: 14px;
+}
+.testimonial-self footer{
+	font-family: cinzel!important;
+    font-weight: 700!important;
+    font-size: 18px!important;
+	margin-top: 25px!important;
+}
+.testimonial-self{
+	min-width: 100%;
+}
+.testimonial-slider .owl-dots .owl-dot.active span {
+    border-color: #C89454;
+    background-color: #C89454;
+}
+.testimonial-slider .owl-dots .owl-dot span {
+    display: block;
+    margin: 5px;
+    width: 15px;
+    height: 15px;
+    border: 2px solid #C4C4C4;
+    border-radius: 50%;
+    transition: all .25s ease;
+    background: #C4C4C4;
+}
+.testimonial-slider .owl-dots .owl-dot:not(.active):hover span {
+    border-color: #C89454;
+}
+.field{
+	background: white!important;
+    border: none!important;
+}
+.submit-btn{
+	font-family: Open Sans!important;
+    font-style: normal!important;
+    font-weight: normal!important;
+    font-size: 14px!important;
+    line-height: 30px!important;
+    text-align: center!important;
+    background: #C89454!important;
+    color: white!important;
+    width: 200px!important;
+    height: 45px!important;
+    padding: 0!important;
+}
+.full-image .wpb_wrapper, .full-image .vc_single_image-wrapper, .full-image img{
+	width: 100%!important;
+}
+.d-title-text > .liner-continer h4.woodmart-title-container{
+	padding-bottom: 15px;
+	border-width: 1px!important;
+}
+.v-title-text.woodmart-title-style-simple .liner-continer:after {
+    width: 22%!important;
+    height: 1px!important;
+}
+.v-list ul > li span.list-content {
+    color: #000;
+}
+.v-list ul > li {
+    margin-bottom: 5px!important;
+}
+.product-grid-item div.product-element-bottom{
+	display: flex;
+    justify-content: space-between;
+}
+
+
+
+/* RESPONSIVE */
+@media only screen and (max-width: 767px) {
+	.service-list-1 ul li{
+    	font-size: 14px!important;
+	}
+	.testimonial-self .testimonial-content{
+		font-size: 12px!important;
+	}
+	.cs-text-columns .vc_column-inner {
+    	padding: 20px 15px!important;
+	}
+	.d-title-text{
+		text-align: center!important;
+	}
+/* 	.testimonial-self .testimonial-rating{
+		position: absolute;
+		left: 50%;
+		bottom: 17%;
+		transform: translate(-50%, 0px);
+	} */
+}
