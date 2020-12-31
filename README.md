@@ -1,4 +1,4 @@
-1. `bundle exec jekyll serve`
+1. `bundle exec jekyll serve -l`
 1. `jekyll clean`
 1. `jekyll build`
 
